@@ -1,17 +1,17 @@
 {
-  "name": "task-service",
+  "name": "notification-service",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index.js"
+    "dev" : "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-        "amqplib": "^0.10.9",
+    "amqplib": "^0.10.9",
     "express": "^5.2.1",
     "mongoose": "^9.1.5"
   }
